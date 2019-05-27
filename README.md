@@ -22,7 +22,7 @@ It queries steam servers every 3 seconds for price update and creates a notifica
 
 Daemon process stops at only 3 conditions,
 * Current price drops to or below critical price
-* Steam API requests get timed-out or fail for some reason consequtively 5 times
+* Steam API requests get timed-out or fail for some reason consecutively 5 times
 * Daemon process is terminated externally
 
 To terminate Daemon externally, look for process with PID equal to first line of std_out.log and kill that process with any process/resource manager or command
